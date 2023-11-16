@@ -50,7 +50,7 @@ class AgenteAdivinhacaoPalavras:
                 break
 
 # Carregar a lista de palavras do arquivo JSON
-with open('Adivinha-o-de-palavras\palavras.json', 'r') as f:
+with open('Adivinhador-de-palavras\palavras.json', 'r') as f:
     data = json.load(f)
     palavras = data['palavras']
 
